@@ -46,6 +46,7 @@ def main(argv):
 	text = ''
 	func = encode
 	lookupFunc = genEncodeLookup
+	iterations = 1
 
 	for opt, arg in opts:
 		if '-h' == opt:
