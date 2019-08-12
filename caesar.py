@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys, getopt
 
-allChars = 'abcdefghijklmnopqrstuvwxyz0123456789'
+allChars = 'abcdefghijklmnopqrstuvwxyz'
 
 def printUsage():
 	usage = '\nusage: %s [-e|-d] -k <key> -t <text> -i <iterations>' % sys.argv[0]
